@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-03-28T12:40:38.953+02:00"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2023-03-28T12:42:01.222+02:00"
+        cq:lastReplicated_publish="{Date}2023-03-28T12:42:01.222+02:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/conf/imageWithTitle-spa-41/settings/wcm/templates/spa-page-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="aem-image-with-title-41 Home Page"
+        jcr:uuid="d19359a7-3f41-4081-9a9e-56d90389a33b"
+        sling:resourceType="imageWithTitle-spa-41/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <text
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="imageWithTitle-spa-41/components/text"
+                    text="&lt;p>Hello World!&lt;/p>"
+                    textIsRich="true">
+                    <cq:responsive jcr:primaryType="nt:unstructured"/>
+                </text>
+                <text_over_an_image
+                    jcr:created="{Date}2023-03-27T12:17:01.555+02:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-27T12:17:52.058+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="imageWithTitle-spa-41/components/text-over-an-image"
+                    alt="new-arrivals"
+                    altValueFromDAM="false"
+                    content="Keep it casual"
+                    displayPopupTitle="true"
+                    fileName="fashion-page-new-arrivals.jpg"
+                    headline="New Season"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    linkTarget="_self">
+                    <file/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </text_over_an_image>
+                <text_over_an_image_125061704
+                    jcr:created="{Date}2023-03-28T12:08:58.871+02:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-28T12:09:58.476+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="imageWithTitle-spa-41/components/text-over-an-image"
+                    alt="new-season"
+                    altValueFromDAM="false"
+                    content="#HMFallingInLove"
+                    displayPopupTitle="true"
+                    fileName="beauty-page-special-offers.jpg"
+                    headline="Modern Classic"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    linkTarget="_self">
+                    <file/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </text_over_an_image_125061704>
+                <text_over_an_image_1919541672
+                    jcr:created="{Date}2023-03-28T12:39:17.369+02:00"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-03-28T12:40:32.187+02:00"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="imageWithTitle-spa-41/components/text-over-an-image"
+                    alt="spring-new-season"
+                    altValueFromDAM="false"
+                    content="Spring Suiting"
+                    displayPopupTitle="true"
+                    fileName="fashion-page-coats.jpg"
+                    headline="Autumn Fashion"
+                    imageFromPageImage="false"
+                    isDecorative="false"
+                    linkTarget="_self">
+                    <file/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="0"
+                            width="4"/>
+                    </cq:responsive>
+                </text_over_an_image_1919541672>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

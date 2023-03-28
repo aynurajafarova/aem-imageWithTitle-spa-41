@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/imageWithTitle-spa-41/settings/wcm/templates/(?!xf-).*]"
+        cq:conf="/conf/imageWithTitle-spa-41"
+        cq:lastReplicated="{Date}2023-03-27T11:48:27.150+02:00"
+        cq:lastReplicated_publish="{Date}2023-03-27T11:48:27.150+02:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:redirectTarget="/content/imageWithTitle-spa-41/us/en/home"
+        cq:template="/conf/imageWithTitle-spa-41/settings/wcm/templates/spa-app-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="aem-image-with-title-41"
+        jcr:uuid="30a44879-1090-4648-ab47-8e12e14794fc"
+        sling:configRef="/conf/imageWithTitle-spa-41"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="imageWithTitle-spa-41/components/page">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <us/>
+</jcr:root>

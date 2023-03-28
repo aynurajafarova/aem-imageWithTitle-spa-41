@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/imageWithTitle-spa-41",
+        "create path (nt:unstructured) /content/dam/imageWithTitle-spa-41/jcr:content",
+        "set properties on /content/dam/imageWithTitle-spa-41/jcr:content\n  set cq:conf{String} to /conf/imageWithTitle-spa-41\n  set jcr:title{String} to \"aem-image-with-title-41\"\nend"
+    ]
+}

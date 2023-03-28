@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/imageWithTitle-spa-41" mode="merge"/>
+    <filter root="/content/imageWithTitle-spa-41" mode="merge"/>
+    <filter root="/content/dam/imageWithTitle-spa-41" mode="merge">
+        <exclude pattern="/content/dam/imageWithTitle-spa-41(/.*)?"/>
+        <include pattern="/content/dam/imageWithTitle-spa-41/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/imageWithTitle-spa-41/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/imageWithTitle-spa-41" mode="merge"/>
+</workspaceFilter>
