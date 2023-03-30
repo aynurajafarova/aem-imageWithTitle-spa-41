@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        pageTitle="aem-image-with-title-41"
+        cq:lastReplicated="{Date}2023-03-27T11:48:27.150+02:00"
+        cq:lastReplicated_publish="{Date}2023-03-27T11:48:27.150+02:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicatedBy_publish="admin"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:template="/conf/imageWithTitle-spa-41/settings/wcm/templates/spa-app-template"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="en"
-        cq:template="/conf/imageWithTitle-spa-41/settings/wcm/templates/spa-app-template"
+        jcr:uuid="9593e9dd-fb1f-4c18-a01a-18c3d48a20cf"
         sling:resourceType="imageWithTitle-spa-41/components/spa"
-    >
-    </jcr:content>
+        pageTitle="aem-image-with-title-41"/>
+    <home/>
 </jcr:root>
